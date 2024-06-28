@@ -8,7 +8,20 @@
 npm install -g @angular/cli
 ```
 
-## Configuración Inicial del Proyecto
+
+### Arranque en un solo paso
+
+- Posicionarte en la raiz del proyecto e instalar las dependencias
+```sh
+npm install
+```
+- Correr ambos servicios. Esto ejecutará un npm install antes de correr cada servicio e inicializará el proyecto de Angular abriendo una pestaña en el navegador.
+```sh
+npm run dev
+```
+
+
+## Configuración Inicial del Proyecto (Arranque manual de back y front)
 
 ### Ejecutar Proyecto Node.js (Backend)
 - Instalación de Dependencias:
@@ -46,18 +59,6 @@ Una vez que ambos servidores estén en funcionamiento, accede a la aplicación d
 cd frontend/ 
 ng test  
 ```
-
-### Arranque en un solo paso
-
-- Posicionarte en la raiz del proyecto e instalar las dependencias
-```sh
-npm install
-```
-- Correr ambos servicios. Esto ejecutará un npm install antes de correr cada servicio e inicializará el proyecto de Angular abriendo una pestaña en el navegador.
-```sh
-npm run dev
-```
-
 
 
 
