@@ -1,0 +1,11 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.flex-item {
+  margin: 10px;
+  text-align: center;
+  font-size: 50px;
+}

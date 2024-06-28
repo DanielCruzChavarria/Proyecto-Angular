@@ -1,0 +1,66 @@
+.custom-toast {
+  position: fixed;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toast-body {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Types */
+.success {
+  background-color: #5cb85c; /* Verde */
+}
+
+.warning {
+  background-color: #f0ad4e; /* Amarillo */
+}
+
+.error {
+  background-color: #d9534f; /* Rojo */
+}
+
+/* Positions */
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.top-center {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.bottom-left {
+  bottom: 20px;
+  left: 20px;
+}
+
+.bottom-center {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

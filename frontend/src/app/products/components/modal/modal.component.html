@@ -1,0 +1,14 @@
+<div class="modal">
+ <div class="modal-content">
+  <div class="modal-header">
+   <h1>{{title}}</h1>
+  </div>
+  <div class="modal-body">
+   ¿Estás seguro de eliminar el producto {{product?.name}} ?
+  </div>
+  <div class="modal-buttons">
+   <button class="cancel-button" (click)="closeModalEvent.emit()">Cancelar</button>
+   <button class="confirm-button" (click)="confirmActionEvent.emit(product?.id)">Confirmar</button>
+  </div>
+ </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "name": "prueba-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend": "cd backend && npm install && npm run start:dev",
+    "start:frontend": "cd frontend && npm install && npm start",
+    "start": "concurrently \"npm run dev\" \"npm run start:frontend\"",
+    "dev:backend": "cd backend && npm install && npm run start:dev",
+    "dev:frontend": "cd frontend && npm install && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
